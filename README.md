@@ -1,4 +1,4 @@
-# Python-Wprowadzenie-Wydanie-IV-Mark-Lutz
+# Python Wprowadzenie, Wydanie IV (Mark Lutz)
 
 https://helion.pl/ksiazki/python-wprowadzenie-wydanie-iv-mark-lutz,pytho4.htm
 
