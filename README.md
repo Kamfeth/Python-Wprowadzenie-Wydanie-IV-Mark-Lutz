@@ -1,0 +1,2 @@
+# Python-Wprowadzenie-Wydanie-IV-Mark-Lutz
+W tym repozytorium udostępniam moje odpowiedzi do quizów sprawdzających wiedzę z danego rozdziału oraz do ćwiczeń programistycznych, które znajdują się na końcu każdej części książki (za wyjątkiem części VIII). Rozwiązanie pojedynczego ćwiczenia programistycznego składa się z kodu źródłowego, natomiast odpowiedzi do pytań sprawdzających znajdują się w jednym, osobnym pliku tekstowym, który odpowiada konkretnemu rozdziałowi.
