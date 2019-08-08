@@ -2,7 +2,8 @@ Pytanie #1: Co to jest interpreter Pythona?
 Odpowiedź #1: Jest to program, który wykonuje napisany przez nas kod źródłowy w języku Python.
 
 Pytanie #2: Co to jest kod źródłowy?
-Odpowiedź #2: Jest to jeden lub wiele plików tekstowych, zawierające różnego rodzaju instrukcje, które odpowiadają poleceniom zapisanym w danym języku programowania.
+Odpowiedź #2: Jest to jeden lub wiele plików tekstowych, zawierające różnego rodzaju instrukcje, 
+które odpowiadają poleceniom zapisanym w danym języku programowania.
 
 Pytanie #3: Co to jest kod bajtowy?
 Odpowiedź #3: Jest to skompilowany wcześniej kod źródłowy, który jest wykorzystywany w maszynie wirtualnej Pythona.
@@ -17,4 +18,6 @@ Odpowiedź #5:
 2. Jython
 
 Pytanie #6: Czym różnią się od siebie CPython, Jython oraz IronPython?
-Odpowiedź #6: CPython jest domyślną implementacją języka Python. Jython implementuje język Python w taki sposób, aby programy napisane w Pythonie mogły być wykorzystane w środowisku Java. IronPython z kolei spełnia to samo zadanie co Jython tylko dla środowiska .NET.
+Odpowiedź #6: CPython jest domyślną implementacją języka Python. 
+Jython implementuje język Python w taki sposób, aby programy napisane w Pythonie mogły być wykorzystane w środowisku Java. 
+IronPython z kolei spełnia to samo zadanie co Jython tylko dla środowiska .NET.
