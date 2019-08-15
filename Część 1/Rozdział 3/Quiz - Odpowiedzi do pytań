@@ -18,7 +18,8 @@ Odpowiedź #4:
      2. Jeżeli program wygeneruje błąd to okno programu również zostanie zamknięte natychmiastowo.
 
 Pytanie #5: Dlaczego konieczne może być przeładowanie modułu?
-Odpowiedź #5: Ponieważ jest to wymagane, kiedy dokonaliśmy modyfikacji naszego pliku źródłowego i chcemy wykonać jego najbardziej aktualną wersję bez konieczności ponownego uruchamiania Pythona.
+Odpowiedź #5: Ponieważ jest to wymagane, kiedy dokonaliśmy modyfikacji naszego pliku źródłowego i chcemy wykonać jego 
+najbardziej aktualną wersję bez konieczności ponownego uruchamiania Pythona.
 
 Pytanie #6: W jaki sposób można w IDLE wykonać skrypt?
 Odpowiedź #6: Poprzez kliknięcie przycisku "Run", a następnie wybranie opcji "Run Module".
@@ -29,4 +30,7 @@ Odpowiedź #7:
      2. Program napisany od zera w IDLE może powodować pewne problemy, jeżeli uruchomimy go poza tym środowiskiem.
 
 Pytanie #8: Co to jest przestrzeń nazw i jaki ma ona związek z plikami modułów?
-Odpowiedź #8: Jest to pakiet zmiennych, który ma na celu zapobiec konfliktowi nazw w przypadku, jeżeli na przykład dwa osobne moduły posiadałyby dwie identycznie nazywające się zmienne. Dzięki takiemu rozwiązaniu w razie potrzeby uzyskania dostępu do zmiennej innego modułu, trzeba zaimportować taki moduł, co umożliwia bezpieczną pracę na zmiennych, które mają identyczne nazwy w tych modułach.
+Odpowiedź #8: Jest to pakiet zmiennych, który ma na celu zapobiec konfliktowi nazw w przypadku, 
+jeżeli na przykład dwa osobne moduły posiadałyby dwie identycznie nazywające się zmienne. 
+Dzięki takiemu rozwiązaniu w razie potrzeby uzyskania dostępu do zmiennej innego modułu, trzeba zaimportować taki moduł, 
+co umożliwia bezpieczną pracę na zmiennych, które mają identyczne nazwy w tych modułach.
