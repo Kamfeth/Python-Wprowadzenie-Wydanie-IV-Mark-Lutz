@@ -1,20 +1,19 @@
 Pytanie #1: Należy podać sześć powodów, dla których ludzie wybierają Pythona?
 Odpowiedź #1: 
-
-1. Jakość oprogramowania
-2. Wydajność programistów
-3. Przenośność programów
-4. Obsługa bibliotek
-5. Integracja komponentów
-6. Przyjemność
+     1. Jakość oprogramowania
+     2. Wydajność programistów
+     3. Przenośność programów
+     4. Obsługa bibliotek
+     5. Integracja komponentów
+     6. Przyjemność
 
 Pytanie #2: Należy wymienić cztery znaczące firmy czy organizacje, które wykorzystują Pythona.
 Odpowiedź #2:
 
-1. Google
-2. Intel
-3. IBM
-4. Pixar
+     1. Google
+     2. Intel
+     3. IBM
+     4. Pixar
 
 Pytanie #3: Dlaczego można nie chcieć używać Pythona w aplikacji?
 Odpowiedź #3: Ponieważ wydajność języka Python nie dorównuje wydajności jakie oferują języki w pełni kompilowane, na przykład C++.
