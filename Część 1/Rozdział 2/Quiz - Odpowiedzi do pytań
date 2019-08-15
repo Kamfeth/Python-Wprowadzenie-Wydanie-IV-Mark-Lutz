@@ -13,9 +13,8 @@ Odpowiedź #4: Jest to maszyna wirtualna Pythona, która ma za zadanie interpret
 
 Pytanie #5: Należy podać dwie nazwy wariantów standardowego modelu wykonywania Pythona.
 Odpowiedź #5: 
-
-1. CPython
-2. Jython
+     1. CPython
+     2. Jython
 
 Pytanie #6: Czym różnią się od siebie CPython, Jython oraz IronPython?
 Odpowiedź #6: CPython jest domyślną implementacją języka Python. 
