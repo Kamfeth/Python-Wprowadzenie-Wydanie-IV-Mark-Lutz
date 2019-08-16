@@ -2,4 +2,5 @@ Pytanie #1: Co się dzieje?
 Odpowiedź #1: Utworzona zostaje cykliczna lista.
 
 Pytanie #2: Dlaczego określona wersja Pythona reaguje w taki sposób na powyższy kod?
-Odpowiedź #2: Ponieważ w wersjach Pythona starszych od 1.5.1 cykle w obiektach nie były wykrywane, co skutkowało wyświetleniem niekończącego się strumienia.
+Odpowiedź #2: Ponieważ w wersjach Pythona starszych od 1.5.1 cykle w obiektach nie były wykrywane, 
+co skutkowało wyświetleniem niekończącego się strumienia.
