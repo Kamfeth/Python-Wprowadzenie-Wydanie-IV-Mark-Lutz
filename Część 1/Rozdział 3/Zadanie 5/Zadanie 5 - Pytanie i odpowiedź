@@ -1,2 +1,4 @@
 Pytanie: Co się stanie?
-Odpowiedź: 2 ** 500 wypisze nam prawidłowy wynik działania 2^500, 1 / 0 zgłosi błąd dzielenia przez zero o nazwie "ZeroDivisionError", natomiast odwołanie się do niezdefiniowanej zmiennej zgłosi błąd o nazwie "NameError".
+Odpowiedź: 2 ** 500 wypisze nam prawidłowy wynik działania 2^500, 
+1 / 0 zgłosi błąd dzielenia przez zero o nazwie "ZeroDivisionError", 
+natomiast odwołanie się do niezdefiniowanej zmiennej zgłosi błąd o nazwie "NameError".
