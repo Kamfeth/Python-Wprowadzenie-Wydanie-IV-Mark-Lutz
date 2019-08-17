@@ -1,0 +1,21 @@
+Pytanie #1: Należy podać cztery podstawowe typy danych Pythona.
+Odpowiedź #1:
+     1. Liczby
+     2. Łańcuchy znaków
+     3. Listy
+     4. Słowniki
+
+Pytanie #2: Dlaczego typy te nazywane są podstawowymi?
+Odpowiedź #2: Ponieważ są one zintegrowaną częścią samego w sobie Pythona.
+
+Pytanie #3: Co oznacza pojęcie "niezmienny" i które trzy z podstawowych typów danych Pythona są uznawane za niezmienne?
+Odpowiedź #3: Jest to taki obiekt, którego nie można zmodyfikować po jego wcześniejszej inicjalizacji. Takimi typami danych są liczby, łańcuchy znaków oraz krotki.
+
+Pytanie #4: Czym jest sekwencja i które trzy typy danych należą do tej kategorii?
+Odpowiedź #4: Jest to typ danych, który pozycjonuje informacje w sposób uporządkowany. Takimi typami danych są łańcuchy znaków, listy oraz krotki.
+
+Pytanie #5: Czym jest odwzorowanie i który typ podstawowy zalicza się do tej kategorii?
+Odpowiedź #5: Jest to taki typ danych, który wiąże przechowywane w nim wartości z ich kluczami. Takim typem danych jest słownik.
+
+Pytanie #6: Czym jest polimorfizm i dlaczego powinno to być dla nas ważne?
+Odpowiedź #6: Polimorfizm mówi o tym, że odpowiednie zachowanie, na przykład operatora + jest uzależnione od typów danych na których ma przeprowadzić daną operację. Jest to ważne, ponieważ program taki może w sposób inteligentny podjąć odpowiednie działanie w zależności od kontekstu wyrażenia.
