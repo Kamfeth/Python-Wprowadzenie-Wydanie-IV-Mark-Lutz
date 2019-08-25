@@ -1,0 +1,26 @@
+Pytanie #1: Jaka w Pythonie jest wartość wyrażenia 2 * (3 + 4)?
+Odpowiedź #1: 14
+
+Pytanie #2: Jaka w Pythonie jest wartość wyrażenia 2 * 3 + 4?
+Odpowiedź #2: 10
+
+Pytanie #3: Jaka w Pythonie jest wartość wyrażenia 2 + 3 * 4?
+Odpowiedź #3: 14
+
+Pytanie #4: Jakich narzędzi można użyć do obliczenia pierwiastka kwadratowego liczby, a także jej kwadratu?
+Odpowiedź #4: Do obliczenia pierwiastka kwadratowego możemy użyć funkcji sqrt z modułu math, czy chociażby funkcji wbudowanej pow z wprowadzonym odpowiednio drugim parametrem. Natomiast do obliczenia kwadratu liczby można wykorzystać wyrażenie potęgowania lub funkcję wbudowaną pow.
+
+Pytanie #5: Jakiego typu będzie wynik wyrażenia 1 + 2.0 + 3?
+Odpowiedź #5: Wynik będzie zapisany jako liczba zmiennoprzecinkowa.
+
+Pytanie #6: W jaki sposób można odciąć i zaokrąglić liczbę zmiennoprzecinkową?
+Odpowiedź #6: Liczbę zmiennoprzecinkową możemy odciąć za pomocą funkcji trunc z modułu math, z kolei zaokrąglić, poprzez wbudowaną funkcję round.
+
+Pytanie #7: W jaki sposób można przekonwertować liczbę całkowitą na liczbę zmiennoprzecinkową?
+Odpowiedź #7: Można tego dokonać przy pomocy wbudowanej funkcji float.
+
+Pytanie #8: W jaki sposób można wyświetlić liczbę całkowitą w notacji szesnastkowej, ósemkowej czy dwójkowej?
+Odpowiedź #8: Jest to możliwe za pomocą kolejno wbudowanych funkcji: hex, oct oraz bin.
+
+Pytanie #9: W jaki sposób można przekonwertować łańcuch ósemkowy, szesnastkowy lub dwójkowy na zwykłą liczbę całkowitą?
+Odpowiedź #9: Można to uczynić za pomocą wbudowanej funkcji int.
