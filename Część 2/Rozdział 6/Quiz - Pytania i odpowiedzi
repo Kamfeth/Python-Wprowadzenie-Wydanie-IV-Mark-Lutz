@@ -1,0 +1,17 @@
+Pytanie #1: Rozważmy trzy poniższe instrukcje. Czy zmieniają one wartość A?
+     A = "mielonka"
+     B = A
+     B = "żywopłot"
+Odpowiedź #1: Nie
+
+Pytanie #2: Rozważmy trzy poniższe instrukcje. Czy zmieniają one wartość A?
+     A = ["mielonka"]
+     B = A
+     B[0] = "żywopłot"
+Odpowiedź #2: Tak
+
+Pytanie #3: Czy tym razem A się zmieni?
+     A = ["mielonka"]
+     B = A[:]
+     B[0] = "żywopłot"
+Odpowiedź #3: Nie
