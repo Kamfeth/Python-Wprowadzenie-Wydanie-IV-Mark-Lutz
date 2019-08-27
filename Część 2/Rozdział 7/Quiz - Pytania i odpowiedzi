@@ -1,0 +1,20 @@
+Pytanie #1: Czy metody łańcuchów znaków find można użyć do przeszukania listy?
+Odpowiedź #1: Nie
+
+Pytanie #2: Czy wyrażenie łańcuchów znaków z wycinkiem może zostać zastosowane do listy?
+Odpowiedź #2: Tak
+
+Pytanie #3: W jaki sposób można przekonwertować znak do jego kodu liczbowego ASCII? W jaki sposób można wykonać odwrotną operację, konwertując kod liczbowy na znak?
+Odpowiedź #3: Przekonwertowania znaku na jego kod liczbowy ASCII jest możliwe za pomocą użycia wbudowanej funkcji ord. Natomiast wbudowana funkcja chr konwertuje kod liczbowy ASCII na odpowiadający jemu znak.
+
+Pytanie #4: W jaki sposób można w Pythonie zmienić łańcuch znaków?
+Odpowiedź #4: W języku Python łańcuchy znaków są niemodyfikowalne, więc nie można ich bezpośrednio zmienić.
+
+Pytanie #5: Mając łańcuch znaków S o wartości "j,aj,a", należy podać dwa sposoby dokonania ekstrakcji dwóch środkowych znaków.
+Odpowiedź #5: Pierwszy sposób to wykorzystanie wycinka, stosując wyrażenie S[2:4]. Drugi sposób to zastosowanie metody S.split(',')[1].
+
+Pytanie #6: Ile znaków znajduje się w łańcuchu "a\nb\x1f\000d"?
+Odpowiedź #6: 6 znaków
+
+Pytanie #7: Po co można by użyć modułu string zamiast wywołania metod łańcuchowych znaków?
+Odpowiedź #7: Ponieważ moduł ten posiada dodatkowe narzędzia, takie jak zdefiniowane stałe łańcuchów znaków lub system obiektów szablonów.
