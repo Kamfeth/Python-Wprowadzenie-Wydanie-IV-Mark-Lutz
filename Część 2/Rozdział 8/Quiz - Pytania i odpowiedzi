@@ -1,8 +1,10 @@
 Pytanie #1: Należy podać dwa sposoby utworzenia listy zawierającej pięć liczb całkowitych 0.
-Odpowiedź #1: Pierwszy sposób to przypisanie do naszej zmiennej wyrażenia [0, 0, 0, 0, 0]. Drugi sposób to skorzystanie z wyrażenia z powtórzeniem, czyli [0] * 5.
+Odpowiedź #1: Pierwszy sposób to przypisanie do naszej zmiennej wyrażenia [0, 0, 0, 0, 0]. 
+Drugi sposób to skorzystanie z wyrażenia z powtórzeniem, czyli [0] * 5.
 
 Pytanie #2: Należy podać dwa sposoby utworzenia słownika zawierającego dwa klucze ('a' oraz 'b'), z których każdy ma przypisaną wartość 0.
-Odpowiedź #2: Jednym ze sposobów to przypisanie do zmiennej wyrażenia z literałem {'a': 0, 'b': 0}. Kolejnym sposobem może być zastosowanie słowa kluczowego dict w postaci dict(a = 0, b = 0).
+Odpowiedź #2: Jednym ze sposobów to przypisanie do zmiennej wyrażenia z literałem {'a': 0, 'b': 0}. 
+Kolejnym sposobem może być zastosowanie słowa kluczowego dict w postaci dict(a = 0, b = 0).
 
 Pytanie #3: Należy podać cztery operacje modyfikujące obiekt listy w miejscu.
 Odpowiedź #3: 
