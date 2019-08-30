@@ -1,0 +1,22 @@
+Pytanie #1: W jaki sposób można ustalić wielkość krotki? Dlaczego narzędzie to znajduje się tam, gdzie się znajduje?
+Odpowiedź #1: Rozmiar krotki można ustalić za pomocą wbudowanej funkcji len. Odpowiedzią na drugie pytanie jest fakt, iż funkcje wbudowane są częścią samego w sobie Pythona, mają zastosowanie do wielu różnych typów obiektów, przez co nie ma potrzeby, aby znajdowały się w specyficznych modułach.
+
+Pytanie #2: Należy napisać wyrażenie zmieniające pierwszy element krotki. Krotka (4, 6, 7) powinna w rezultacie stać się krotką (1, 5, 6).
+Odpowiedź #2: 
+     oryginalTuple = (4, 5, 6)
+     newTuple = (1, ) + oryginalTuple[1:]
+
+Pytanie #3: Jaka jest domyślna wartość argumentu z trybem przetwarzania w wywołaniu open dla pliku?
+Odpowiedź #3: Jest to wartość 'r', czyli read.
+
+Pytanie #4: Jaki moduł można wykorzystać do przechowania obiektów Pythona w pliku bez ręcznego konwertowania ich do łańcucha znaków?
+Odpowiedź #4: Rozwiązaniem jest moduł pickle.
+
+Pytanie #5: W jaki sposób można skopiować wszystkie elementy zagnieżdżonej struktury za jednym razem?
+Odpowiedź #5: Trzeba zaimportować moduł copy a następnie wywołać metodę copy.deepcopy.
+
+Pytanie #6: Kiedy Python uznaje obiekt za prawdę?
+Odpowiedź #6: Wtedy kiedy obiekt nie jest pusty, lub posiada zapisane wartości liczbowe różne od zera.
+
+Pytanie #7: Co jest naszym celem?
+Odpowiedź #7: Nauczenie się Pythona. 
