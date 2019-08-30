@@ -1,0 +1,30 @@
+2 ** 16 <--- Oblicza i wyświetla wynik działania 2^16, czyli 65536.
+2 / 5, 2 / 5.0 <--- Oblicza dwa wyrażenia, obydwa zwracają wynik 0,4.
+
+"mielonka" + "jajka" <--- Za pomocą operacji konkatenacji łączy dwa łańcuchy w jeden. Wynik tego wyrażenia to 'mielonkajajka'.
+S = "szynka" <--- Przypisuje zmiennej S łańcuch "szynka".
+"jajka" + S <--- Za pomocą operacji konkatenacji łączy dwa łańcuchy w jeden. Wynik tego wyrażenia to 'jajkaszynka'.
+S * 5 <--- Dokonuje pięciokrotnego powtórzenia łańcucha znaków. Wynik tego wyrażenia to 'szynkaszynkaszynkaszynkaszynka'.
+S[:0] <--- Tworzy pusty wycinek łańcucha przechowywanego w zmiennej S. Wynik to ''.
+"zielone %s i %s" % ("jajka", S) <--- Stosuje formatowanie za pomocą wyrażenia formatującego. Wynikiem jest łańcuch 'zielone jajka i szynka'.
+'zielone {0} i {1}'.format('jajka', S) <--- Stosuje formatowanie za pomocą metody format. Wynikiem jest łańcuch 'zielone jajka i szynka'.
+
+('x',)[0] <--- Pobiera pierwszy element krotki. Zwraca wartość 'x'.
+('x', 'y')[1] <--- Pobiera drugi element krotki. Zwraca wartość 'y'.
+
+L = [1,2,3] + [4,5,6] <--- Tworzy listę za pomocą konkatenacji dwóch list i przypisuje ją do zmiennej L.
+L, L[:], L[:0], L[-2], L[-2:] <--- Instrukcje te wykonują kolejno: Wyświetlenie listy L, wyświetlenie kopii listy L, wyświetlenie pustego wycinka listy L, zwrócenie piątej wartośći listy L, wyświetlenie wycinka listy L składającego się z dwóch ostatnich wartości tej listy. Wynik tych wszystkich operacji wygląda następująco: ([1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6], [], 5, [5, 6]).
+([1,2,3] + [4,5,6])[2:4] <--- Łączy dwa łańcuchy w jeden, a następnie za pomocą wycinka pobiera trzecią i czwartą wartość listy. Ostateczny wynik tych działań to lista [3, 4].
+[L[2], L[3]] <--- Zwraca listę składającą się z  trzeciej i czwartej wartość listy L. Wynikiem jest [3, 4].
+L.reverse(); L <--- Odwraca elementy listy L oraz wyświetla jej całą zawartość. Wynik wygląda następująco: [6, 5, 4, 3, 2, 1]
+L.sort(); L <--- Sortuje w sposób rosnący wszystkie elementy listy L oraz wyświetla jej całą zawartość. Wynik wygląda nastepująco: [1, 2, 3, 4, 5, 6]
+L.index(4) <--- Pobiera piątą wartość listy, czyli zwraca liczbę 3.
+
+{'a':1, 'b':2}['b'] <--- Tworzy słownik zawierający dwie wartości a następnie za pomocą drugiego klucza pobiera wartośc mu odpowiadającą, czyli w tym przypadku 2.
+D = {'x':1, 'y':2, 'z':3} <--- Przypisuje zmiennej D słownik, który zawiera trzy klucze oraz trzy wartości przypisane do nich.
+D['w'] = 0 <--- Dodaje do słownika D nową wartość, poprzez przypisanie wartośći 0 do klucza 'w'.
+D['x'] + D['w'] <--- Pobiera wartości poprzez ich odpowiednie klucze i wykonuje działanie 1 + 0, które zwraca wynik 1.
+D[(1,2,3)] = 4 <--- Dopisuje do słownika D nową wartość wraz z kluczem. Kluczem jest trzyelementowa krotka, wartością natomiast cyfra 4.
+list(D.keys()), list(D.values()), (1,2,3) in D <-- Wynikiem tych funkcji jest trzyelementowa krotka, która wyświetla wszystkie klucze słownika D, wszystkie jego wartości, oraz wartość logiczną True, która jest wynikiem wyrażenia ze słowem kluczowym in.
+
+[[]], ["",[],(),{},None] <--- Wyrażenie to tworzy puste obiekty. Wyświetla wynik ([[]], ['', [], (), {}, None]).
