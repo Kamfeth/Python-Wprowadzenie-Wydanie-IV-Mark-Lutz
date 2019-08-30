@@ -3,7 +3,8 @@ Odpowiedź #1: Rozmiar krotki można ustalić za pomocą wbudowanej funkcji len.
 Odpowiedzią na drugie pytanie jest fakt, iż funkcje wbudowane są częścią samego w sobie Pythona, 
 mają zastosowanie do wielu różnych typów obiektów, przez co nie ma potrzeby, aby znajdowały się w specyficznych modułach.
 
-Pytanie #2: Należy napisać wyrażenie zmieniające pierwszy element krotki. Krotka (4, 6, 7) powinna w rezultacie stać się krotką (1, 5, 6).
+Pytanie #2: Należy napisać wyrażenie zmieniające pierwszy element krotki. 
+Krotka (4, 6, 7) powinna w rezultacie stać się krotką (1, 5, 6).
 Odpowiedź #2: 
      oryginalTuple = (4, 5, 6)
      newTuple = (1, ) + oryginalTuple[1:]
