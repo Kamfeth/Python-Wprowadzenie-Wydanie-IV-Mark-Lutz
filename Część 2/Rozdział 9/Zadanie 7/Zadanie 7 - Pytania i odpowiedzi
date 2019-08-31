@@ -1,4 +1,5 @@
-Pytanie #1: Co się stanie, kiedy spróbujemy wykorzystać operator + na różnych (mieszanych) typach danych (na przykład łańcuchu znaków i liście, liście i krotce)?
+Pytanie #1: Co się stanie, kiedy spróbujemy wykorzystać operator + na różnych (mieszanych) typach danych 
+(na przykład łańcuchu znaków i liście, liście i krotce)?
 Odpowiedź #1: Python w takim przypadku wygeneruje błąd.
 
 Pytanie #2: Czy + działa, kiedy jeden z argumentów jest słownikiem?
@@ -13,5 +14,6 @@ Odpowiedź #4: Nie
 Pytanie #5: Wskazówka: co metoda append zakłada na temat obiektu będącego jej podmiotem?
 Odpowiedź #5: Zakłada, że obiekt ten jest zmienny, co umożliwia modyfikację obiektu w miejscu.
 
-Pytanie #6: Wreszcie, jaki typ obiektu otrzymamy, kiedy sporządzimy wycinek lub wykonamy konkatenację dwóch list lub dwóch łańcuchów znaków?
+Pytanie #6: Wreszcie, jaki typ obiektu otrzymamy, kiedy sporządzimy wycinek 
+lub wykonamy konkatenację dwóch list lub dwóch łańcuchów znaków?
 Odpowiedź #6: Otrzymamy w tym przypadku obiekt tego samego typu co dwa obiekty, które były poddane odpowiedniej operacji.
