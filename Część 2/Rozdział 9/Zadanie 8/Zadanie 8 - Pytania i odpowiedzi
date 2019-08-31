@@ -1,0 +1,8 @@
+Pytanie #1: Jakiś pomysł, co może się stać?
+Odpowiedź #1: Zostanie wyświetlony pierwszy znak łańcucha.
+
+Pytanie #2: Czy takie wyrażenie indeksujące nadal będzie działać, kiedy zastosujemy je do listy, takiej jak ['j', 'a', 'j', 'o']?
+Odpowiedź #2: Tak
+
+Pytanie #3: Dlaczego?
+Odpowiedź #3: Ponieważ lista ta składa się tylko i wyłącznie z łańcuchów znaków, w przeciwnym razie wyrażenie to nie działałoby poprawnie.
