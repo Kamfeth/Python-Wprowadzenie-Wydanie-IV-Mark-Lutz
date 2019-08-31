@@ -1,0 +1,11 @@
+Pytanie #1: Co się stanie?
+Odpowiedź #1: Trzecia wartość listy została nadpisana pustą listą.
+
+Pytanie #2: Co stanie się teraz?
+Odpowiedź #2: Przypisanie pustej listy do wycinka skasowało pustą listę, którą wcześniej nadpisaliśmy do trzeciej wartości listy.
+
+Pytanie #3: Co się stanie, kiedy usuniemy cały wycinek (del L[1:])?
+Odpowiedź #3: Wszystkie elementy listy zostaną skasowane, za wyjątkiem elementu pierwszego.
+
+Pytanie #4: Co się stanie, kiedy przypiszemy do wycinka element niebędący sekwencją (na przykład L[1:2] = 1)?
+Odpowiedź #4: Python wygeneruje błąd.
