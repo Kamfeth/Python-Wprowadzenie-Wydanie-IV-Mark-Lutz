@@ -2,10 +2,13 @@ Pytanie #1: Co się stanie, kiedy spróbujemy zindeksować słownik dla nieistni
 Odpowiedź #1: Python wygeneruje błąd
 
 Pytanie #2: Co zrobi Python, kiedy spróbujemy przypisać coś do nieistniejącego klucza 'd' (na przykład D['d'] = 'mielonka')?
-Odpowiedź #2: Python doda do słownika nowy klucz, wraz z wartością do niego przypisaną, którą jest w tym przypadku łańcuch mielonka.
+Odpowiedź #2: Python doda do słownika nowy klucz, z wartością do niego przypisaną, którą jest w tym przypadku łańcuch mielonka.
 
 Pytanie #3: Jak można to porównać z przypisaniami i referencjami poza granicami listy?
-Odpowiedź #3: Zarówno w przypadku słowników jak i list Python zwróci błąd, kiedy będziemy próbowali odczytać wartość spod nieistniejącego klucza słownika lub indeksu listy. Lista uniemożliwia przypisywanie wartości w miejsce, które wykracza poza zakres listy, jednak jest już to możliwe w przypadku słownika, który tutaj tworzy od razu nowy klucz wraz z odpowiadającą mu wartością.
+Odpowiedź #3: Zarówno w przypadku słowników jak i list Python zwróci błąd, 
+kiedy będziemy próbowali odczytać wartość spod nieistniejącego klucza słownika lub indeksu listy. 
+Lista uniemożliwia przypisywanie wartości w miejsce, które wykracza poza zakres listy, 
+jednak jest już to możliwe w przypadku słownika, który tutaj tworzy od razu nowy klucz wraz z odpowiadającą mu wartością.
 
 Pytanie #4: Czy wygląda to na regułę dotyczącą nazw zmiennych?
 Odpowiedź #4: Tak
