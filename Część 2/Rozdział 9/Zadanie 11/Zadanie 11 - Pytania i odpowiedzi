@@ -1,0 +1,5 @@
+Pytanie #1: Czy nowy plik pojawia się w katalogu, w którym wykonaliśmy skrypty?
+Odpowiedź #1: Tak
+
+Pytanie #2: Co się stanie, jeśli do nazwy pliku przekazanej do metody open dodamy inną ścieżkę do katalogu?
+Odpowiedź #2: W takim przypadku plik zostanie zapisany do katalogu, do którego prowadzi podana przez nas ścieżka.
