@@ -1,0 +1,69 @@
+Zadanie 1: Podstawy. Należy poeksperymentować z najczęściej używanymi operacjami znajdującymi się w różnych tabelach tej części książki. Na początek należy uruchomić interpreter interaktywny Pythona, wpisać każde z poniższych wyrażeń i spróbować wyjaśnić, co się dzieje w każdym z tych przypadków. Warto zwrócić uwagę na to, że średnik w części przykładów został użyty do oddzielenia od siebie instrukcji, tak by udało się zmieścić kilka instrukcji w jednym wierszu. Przykładowo kod X = 1; X przypisuje, a następnie wyświetla zmienną (więcej informacji na temat składni instrukcji znajdzie się w kolejnej części książki). Należy także pamiętać, że przecinek pomiędzy wyrażeniami zazwyczaj tworzy krotkę, nawet jesli nie zastosowano nawiasów. X, Y, Z to krotka trójelementowa, którą Python wyświetla z użyciem nawiasów.
+     2 ** 16
+     2 / 5, 2 / 5.0
+
+     "mielonka" + "jajka"
+     S = "szynka"
+     "jajka" + S
+     S * 5
+     S[:0]
+     "zielone %s i %s" % ("jajka", S)
+     'zielone {0} i {1}'.format('jajka', S)
+
+     ('x',)[0]
+     ('x', 'y')[1]
+
+     L = [1,2,3] + [4,5,6]
+     L, L[:], L[:0], L[-2], L[-2:]
+     ([1,2,3] + [4,5,6])[2:4]
+     [L[2], L[3]]
+     L.reverse(); L
+     L.sort(); L
+     L.index(4)
+
+     {'a':1, 'b':2}['b']
+     D = {'x':1, 'y':2, 'z':3}
+     D['w'] = 0
+     D['x'] + D['w']
+     D[(1,2,3)] = 4
+     list(D.keys()), list(D.values()), (1,2,3) in D
+
+     [[]], ["",[],(),{},None]
+
+Zadanie 2: Indeksowanie i wycinki. W sesji interaktywnej należy zdefiniować listę o nazwie L, zawierającą cztery łańcuchy znaków lub liczby (na przykład L = [0,1,2,3]). Następnie należy wykonać kilka eksperymentów z przypadkami granicznymi. Być może nigdy nie zobaczymy takich przypadków w prawdziwych programach, ale służą one do zastanowienia się nad modelem leżącym u ich podstaw; część z nich może się przydać w mniej sztucznych formach:
+     a) Co się stanie, kiedy spróbujemy wykorzystać indeks znajdujący się poza długością listy (jak L[4])?
+     b) Co się stanie, kiedy spróbujemy wykonać wycinek wykraczający poza długość listy (jak L[-1000:100])?
+     c) Jak radzi sobie Python, kiedy próbujemy dokonać ekstrakcji sekwencji w odwrotnej kolejności - gdy niższa granica jest większa od wyższej (jak L[3:1])? (Wskazówka: warto spróbować przypisać coś do tego wycinka (na przykład L[3:1] = ['?']) i zobaczyć, gdzie zostanie wstawiona wartość. Czy jest to to samo zjawisko co przy próbie sporządzenia wycinka poza granicami listy?).
+
+Zadanie 3: Indeksowanie, wycinki i del. Należy zdefiniować kolejną listę czteroelementową i przypisać pustą listę do jednej z jej wartości przesunięcia (na przykład L[2] = []). Co się stanie? Następnie należy przypisać pustą listę do wycinka (L[2:3] = []). Co stanie się teraz? Warto przypomnieć, że przypisanie do wycinka usuwa wycinek i wstawia nową wartość w miejscu, gdzie się on znajdował. Instrukcja del służy do usuwania elementów o określonej wartości przesunięcia, a także kluczy, atrybutów oraz zmiennych. Można jej użyć na liście w celu usunięcia jakiegoś jej elementu (jak w del L[0]). Co się stanie, kiedy usuniemy cały wycinek (del L[1:])? Co się stanie, kiedy przypiszemy do wycinka element niebędący sekwencją (na przykład L[1:2] = 1)?
+
+Zadanie 4: Przypisywanie krotek. Należy wpisać do sesji interaktywnej następujące wiersze kodu:
+     >>> X = 'mielonka'
+     >>> Y = 'jajka'
+     >>> X, Y = Y, X
+Co stanie się z X i Y po wpisaniu tej sekwencji?
+
+Zadanie 5: Klucze słowników. Rozważmy poniższy fragment kodu:
+     >>> D = {}
+     >>> D[1] = 'a'
+     >>> D[2] = 'b'
+Wiemy już, że dostęp do elementów słownika nie odbywa się po wartościach przesunięcia - co się zatem tutaj dzieje? Czy poniższy kod trochę to wyjaśnia? (Wskazówka: do jakiej kategorii typów należą łańcuchy znaków, liczby całkowite oraz krotki?).
+     >>> D[(1, 2, 3)] = 'c'
+     >>> D
+     >>> {1: 'a', 2: 'b', (1, 2, 3): 'c'}
+
+Zadanie 6: Indeksowanie słowników. Należy utworzyć słownik D z trzema wpisami dla kluczy 'a', 'b' oraz 'c'. Co się stanie, kiedy spróbujemy zindeksować słownik dla nieistniejącego klucza (D['d'])? Co zrobi Python, kiedy spróbujemy przypisać coś do nieistniejącego klucza 'd' (na przykład D['d'] = 'mielonka')? Jak można to porównać z przypisaniem i referencjami poza granicami listy? Czy wygląda to na regułę dotyczącą nazw zmiennych?
+
+Zadanie 7: Operacje uniwersalne. Należy wykorzystać sesję interaktywną do uzyskania odpowiedzi na poniższe pytania.
+     a) Co się stanie, kiedy spróbujemy wykorzystać operator + na różnych (mieszanych) typach danych (na przykład łańcuchu znaków i liście, liście i krotce)?
+     b) Czy + działa, kiedy jeden z argumentów jest słownikiem?
+     c) Czy metoda append działa zarówno dla list, jak i łańcuchów znaków? Czy można użyć metody keys na listach? Wskazówka: co metoda append zakłada na temat obiektu będącego jej podmiotem?
+     d) Wreszcie, jaki typ obiektu otrzymamy, kiedy sporządzimy wycinek lub wykonamy konkatenację dwóch list lub dwóch łańcuchów znaków?
+
+Zadanie 8: Indeksowanie łańcuchów znaków. Należy zdefiniować łańcuch znaków S zawierający cztery znaki: S = "jajo". Później należy wpisać wyrażenie S[0][0][0][0][0]. Jakiś pomysł, co może się stać? Wskazówka: warto przypomnieć, że łańcuch znaków jest kolekcją znaków, a znaki Pythona to jednoznakowe łańcuchy. Czy takie wyrażenie indeksujące nadal będzie działać, kiedy zastosujemy je do listy, takiej jak ['j', 'a', 'j', 'o']? Dlaczego?
+
+Zadanie 9: Typy niezmienne. Należy ponownie zdefiniować łańcuch znaków S zawierający cztery znaki: S = "jajo". Należy napisać instrukcję przypisania zmieniającą ten łańcuch znaków na "jaja", używając do tego wyłącznie wycinka oraz konkatenacji. Czy tę samą operację można wykonać z użyciem samego indeksowania oraz konkatenacji? A przypisania do indeksu?
+
+Zadanie 10: Zagnieżdżanie. Należy utworzyć strukturę danych reprezentującą nasze dane osobowe - imiona i nazwiska, wiek, zawód, adres, adres e-mail i numer telefonu. Strukturę tę można zbudować z użyciem dowolnej kombinacji wbudowanych typów obiektów (list, krotek, słowników, łańcuchów znaków, liczb). Następnie należy uzyskać dostęp do poszczególnych komponentów struktury danych za pomocą indeksowania. Czy pewne struktury sprawdzają się w tym obiekcie lepiej od innych?
+
+Zadanie 11: Pliki. Należy napisać skrypt tworzący nowy plik wyjściowy o nazwie myfile.txt i zapisujący do niego łańcuch znaków "Witaj, wspaniały świecie!". Później należy napisać kolejny skrypt otwierający plik myfile.txt, odczytujący i wyświetlający jego zawartość. Oba skrypty należy wykonać z systemowego wiersza poleceń. Czy nowy plik pojawia się w katalogu, w którym wykonaliśmy skrypt? Co się stanie, jeśli do nazwy pliku przekazanej do metody open dodamy inną ścieżkę do katalogu? Uwaga: metody plików write nie dodają do łańcuchów znaków nowego wiersza. Jeśli chcemy w pełni zakończyć wiersz w pliku, musimy dodać \n na końcu łańcucha znaków.
