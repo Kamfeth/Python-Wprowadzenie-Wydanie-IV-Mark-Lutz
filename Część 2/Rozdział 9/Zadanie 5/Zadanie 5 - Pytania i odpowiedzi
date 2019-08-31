@@ -1,0 +1,11 @@
+Pytanie #1: Wiemy już, że dostęp do elementów słownika nie odbywa się po wartościach przesunięcia - co się zatem tutaj dzieje?
+Odpowiedź #1: Dodajemy do słownika nowe wartości wraz z ich kluczami.
+
+Pytanie #2: Czy poniższy kod trochę to wyjaśnia?
+     >>> D[(1, 2, 3)] = 'c'
+     >>> D
+     {1: 'a', 2: 'b', (1, 2, 3): 'c'}
+Odpowiedź #2: Tak.
+
+Pytanie #3: (Wskazówka: do jakiej kategorii typów należą łańcuch znaków, liczby całkowite oraz krotki?)
+Odpowiedź #3: Są to obiekty niezmienne.
