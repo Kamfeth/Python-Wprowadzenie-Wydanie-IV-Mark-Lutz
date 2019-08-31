@@ -1,0 +1,11 @@
+Pytanie #1: Co się stanie, kiedy spróbujemy wykorzystać indeks znajdujący się poza długością listy (jak L[4])?
+Odpowiedź #1: Python wygeneruje błąd
+
+Pytanie #2: Co się stanie, kiedy spróbujemy wykonać wycinek wykraczający poza długość listy (jak L[-1000:100])?
+Odpowiedź #2: Python zwrócił wycinek listy, który składa się ze wszystkich elementów oryginalnej listy.
+
+Pytanie #3: Jak radzi sobie Python, kiedy próbujemy dokonać ekstrakcji sekwencji w odwrotnej kolejności - gdy niższa granica jest większa od wyższej (jak L[3:1])?
+Odpowiedź #3: Wyrażenie L[3:1] w przypadku listy L = [0, 1, 2, 3] zwraca pustą listę []. W momencie kiedy niższa granica jest większa od wyższej, Python automatycznie skaluje granice wycinka tak, aby niższa granica była mniejsza lub równa wyższej granicy.
+
+Pytanie #4: Czy jest to to samo zjawisko co przy próbie sporządzenia wycinka poza granicami listy?
+Odpowiedź #4: Nie
