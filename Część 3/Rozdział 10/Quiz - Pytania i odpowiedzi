@@ -1,0 +1,26 @@
+Pytanie #1: Jakie trzy elementy wymagane są w językach podobnych do C, ale pomijane w Pythonie?
+Odpowiedź #1: 
+     1. Nawiasy w treści testu w niektórych instrukcjach.
+     2. Średniki na końcu instrukcji.
+     3. Nawiasy klamrowe tworzące bloki kodu.
+
+Pytanie #2: W jaki sposób w Pythonie normalnie kończy się instrukcje?
+Odpowiedź #2: Koniec wiersza oznacza zakończenie pojedynczej instrukcji, ewentualnie zastosowanie domykającej się pary nawiasów, jeżeli instrukcja jest podzielona na więcej niż jeden wiersz.
+
+Pytanie #3: W jaki sposób instrukcje z zagnieżdżonego bloku kodu są zazwyczaj ze sobą wiązane w Pythonie?
+Odpowiedź #3: Instrukcje takie są ze sobą wiązane za pomocą umiejscowienia równych wcięć, tak aby lewa strona pierwszego znaku każdej instrukcji znajdującej się w bloku kodu tworzyła równą linię pionową.
+
+Pytanie #4: W jaki sposób możemy rozciągnąć pojedynczą instrukcję na kilka wierszy?
+Odpowiedź #4: Można to uczynić za pomocą zastosowania pary nawiasów, wstawiając nawias otwierający przed początkiem instrukcji, a następnie nawias zamykający po zakończeniu instrukcji.
+
+Pytanie #5: W jaki sposób można utworzyć instrukcję złożoną zajmującą jeden wiersz?
+Odpowiedź #5: Można to zrobić za pomocą zastosowania pojedynczego znaku dwukropka, jednak w takim przypadku ciało instrukcji złożonej nie może zawierać żadnych instrukcji złożonych.
+
+Pytanie #6: Czy istnieje jakiś powód uzasadniający umieszczanie średnika na końcu instrukcji w Pythonie?
+Odpowiedź #6: Tak
+
+Pytanie #7: Do czego służy instrukcja try?
+Odpowiedź #7: Do przechwytywania wyjątków oraz w przypadku wystąpienia takiego wyjątku - jego poprawne obsłużenie.
+
+Pytanie #8: Co jest najczęściej popełnianym przez osoby początkujące błędem w kodowaniu w Pythonie?
+Odpowiedź #8: Nie wstawienie dwukropka na końcu nagłówka instrukcji złożonej.
