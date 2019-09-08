@@ -14,4 +14,4 @@ Odpowiedź #3: Do zmiennej L zostaje przypisana wartość None,
 ponieważ metoda sort zwraca taką wartość podczas próby przypisania jej wyniku do zmiennej.
 
 Pytanie #4: W jaki sposób można wykorzystać instrukcję print do przesłania tekstu do pliku zewnętrznego?
-Odpowiedź #4: Poprzez przypisanie do obiektu sys.stdout ręcznie otwartego pliku przed użyciem instrukcji print.
+Odpowiedź #4: Poprzez przypisanie do obiektu sys.stdout ręcznie otwartego pliku przed użyciem funkcji print.
