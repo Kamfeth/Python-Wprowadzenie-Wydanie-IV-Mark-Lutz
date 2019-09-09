@@ -1,0 +1,12 @@
+Pytanie #1: W jaki sposób można zapisać w Pythonie rozgałęzienie kodu?
+Odpowiedź #1: Można to uczynić za pomocą instrukcji if wraz z kilkoma częściami elif.
+
+Pytanie #2: W jaki sposób można w Pythonie zapisać instrukcję if/else w postaci wyrażenia?
+Odpowiedź #2: Jest to możliwe za pomocą wyrażenia trójargumentowego, które może wyglądać tak:
+     Y if X else Z
+
+Pytanie #3: Jak można sprawić, by jedna instrukcja rozciągała się na kilka wierszy?
+Odpowiedź #3: Możemy to zrobić poprzez umiejscowienie par nawiasów, wstawiając nawias otwierający przed początkiem instrukcji w pierwszym wierszu, natomiast nawias zamykający na końcu instrukcji w ostatnim wierszu.
+
+Pytanie #4: Co oznaczają słowa True i False?
+Odpowiedź #4: Są to dwa typy obiektu Boolean w Pythonie. Wartość True oznacza inaczej wartość liczby całkowitej 1, natomiast False reprezentuje liczbę 0.
