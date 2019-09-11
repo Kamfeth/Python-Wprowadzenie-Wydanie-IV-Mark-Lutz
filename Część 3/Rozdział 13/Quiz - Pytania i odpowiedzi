@@ -1,0 +1,14 @@
+Pytanie #1: Jakie są najważniejsze różnice funkcjonalne pomiędzy while i for?
+Odpowiedź #1: Pętla while została stworzona do bardziej ogólnych zastosowań, natomiast pętla for służy głównie do iteracji elementów sekwencji. 
+
+Pytanie #2: Jaka jest różnica pomiędzy break i continue?
+Odpowiedź #2: Instrukcja break kończy całkowicie wykonywanie pętli, natomiast instrukcja continue pomija obecnie wykonywaną iterację pętli i rozpoczyna nową.
+
+Pytanie #3: Kiedy w pętli wykonywana jest część else?
+Odpowiedź #3: W momencie kiedy pętla zakończy się prawidłowo, bez udziału instrukcji break.
+
+Pytanie #4: W jaki sposób można w Pythonie zapisać pętle opartą na liczniku?
+Odpowiedź #4: Można to uczynić za pomocą pętli while, która ręcznie przechowuje i aktualizuje indeks.
+
+Pytanie #5: Do czego w pętli for można wykorzystać funkcję range?
+Odpowiedź #5: Funkcję range w kontekście pętli for można wykorzystać na przykład do przejścia po wartościach przesunięć zamiast po elementach znajdujących się na tych pozycjach.
