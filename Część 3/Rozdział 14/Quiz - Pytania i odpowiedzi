@@ -1,0 +1,18 @@
+Pytanie #1: W jaki sposób powiązane są pętle for i iteratory?
+Odpowiedź #1: Pętla for korzysta z protokołu iteracyjnego, który wywołuje metodę next obiektu po każdej pojedynczej iteracji. Przechwytuje również wyjątek StopIteration w momencie w którym pętla for przeszła przez wszystkie elementy obiektu.
+
+Pytanie #2: W jaki sposób powiązane są pętle for i listy składane?
+Odpowiedź #2: Zarówno pętla for jak i listy składane są narzędziami iteracyjnymi. Listy składane można przełożyć na pętle for i vice versa.
+
+Pytanie #3: Należy podać cztery konteksty iteracyjne w języku Python.
+Odpowiedź #3:
+     1. Pętle for
+     2. Listy składane
+     3. Wyrażenia sprawdzające przynależność in
+     4. Wbudowana funkcja sorted
+
+Pytanie #4: Jaki jest obecnie w Pythonie najlepszy sposób wczytania wiersza po wierszu z pliku tekstowego?
+Odpowiedź #4: Takim sposobem jest otworzenie pliku wewnątrz kontekstu iteracyjnego, jak np. pętla for a następnie za pomocą narzędzia iteracyjnego automatycznie odczytać każdy pojedynczy wiersz pliku za pomocą niejawnie wywoływanej metody next po każdej iteracji.
+
+Pytanie #5: Jakiego rodzaju broni oczekiwalibyśmy po Hiszpańskiej Inkwizycji?
+Odpowiedź #5: Zastraszenie
