@@ -1,0 +1,17 @@
+Pytanie #1: Kiedy powinniśmy używać łańcuchów znaków dokumentacji zamiast komentarzy ze znakami #?
+Odpowiedź #1: Wtedy kiedy pracujemy na kodzie źródłowym, który składa się z wielu modułów, funkcji, klas lub metod.
+
+Pytanie #2: Należy podać trzy sposoby przeglądania łańcuchów znaków dokumentacji.
+Odpowiedź #2:
+     1. Za pomocą wyszukiwarki w graficznym interfejsie użytkownika PyDoc.
+     2. Poprzez przekazanie obiektu do funkcji help.
+     3. Za pomocą atrybutu __doc__ obiektu.
+
+Pytanie #3: W jaki sposób można uzyskać listę dostępnych atrybutów obiektu?
+Odpowiedź #3: Za pomocą wbudowanej funkcji dir.
+
+Pytanie #4: W jaki sposób można otrzymać listę wszystkich modułów dostępnych na komputerze?
+Odpowiedź #4: Musimy w tym celu uruchomić PyDoc, pozostawić puste pole z nazwą modułu, a następnie kliknąć przycisk open browser.
+
+Pytanie #5: Jaką książkę o Pythonie należy kupić po tej?
+Odpowiedź #5: Python Leksykon kieszonkowy, Wydanie V (Mark Lutz).
