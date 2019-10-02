@@ -1,0 +1,4 @@
+Pytanie: Co stanie się na naszym komputerze, kiedy w sesji interaktywnej wpiszemy poniższy kod?
+     for i in range(50):
+        print('Witaj %d\n\a' % i)
+Odpowiedź: Pięćdziesiąt razy zostanie wyświetlony napis Witaj, znak spacji, a po nim liczba, kolejno z przedziału od 0 do 49. Po każdym łańcuchu znaków występuje znak nowego wiersza, jak i również zostaje wygenerowany dźwięk głośniczka systemowego.
