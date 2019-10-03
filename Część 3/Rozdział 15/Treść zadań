@@ -1,16 +1,25 @@
 Zadanie 1: Zapisywanie w kodzie podstawowych pętli.
-     a) Należy napisać pętle for wyświetlającą kod ASCII dla każdego znaku z łańcucha o nazwie S. Do konwersji każdego znaku na kod ASCII należy wykorzystać wbudowaną funkcję ord(znak). W celu sprawdzenia, jak ona działa, należy ją przetestować w sesji interaktywnej.
+     a) Należy napisać pętle for wyświetlającą kod ASCII dla każdego znaku z łańcucha o nazwie S. 
+     Do konwersji każdego znaku na kod ASCII należy wykorzystać wbudowaną funkcję ord(znak). 
+     W celu sprawdzenia, jak ona działa, należy ją przetestować w sesji interaktywnej.
      b) Następnie należy zmodyfikować pętle w taki sposób, by obliczała ona sumę kodów ASCII dla wszystkich znaków łańcucha.
-     c) Na koniec należy wprowadzić ostatnią modyfikację, tak by pętla zwracała listę zawierającą kody ASCII każdego znaku z łańcucha. Czy wyrażenie map(ord, S) ma podobny efekt? (Wskazówka: patrz rozdział 14 książki).
+     c) Na koniec należy wprowadzić ostatnią modyfikację, tak by pętla zwracała listę zawierającą kody ASCII każdego 
+     znaku z łańcucha. Czy wyrażenie map(ord, S) ma podobny efekt? (Wskazówka: patrz rozdział 14 książki).
 
 Zadanie 2: Znaki ukośników lewych. Co stanie się na naszym komputerze, kiedy w sesji interaktywnej wpiszemy poniższy kod?
      for i in range(50):
         print('Witaj %d\n\a' % i)
-Należy pamiętać, że poza interfejsem IDLE ten przykład może spowodować piski komputera, zatem wykonywanie go w zatłoczonym pomieszczeniu niekoniecznie jest najlepszym pomysłem. IDLE, zamiast piszczeć, wyświetla dziwne znaki (zobacz znaki ucieczki z tabeli 7.2).
+Należy pamiętać, że poza interfejsem IDLE ten przykład może spowodować piski komputera, 
+zatem wykonywanie go w zatłoczonym pomieszczeniu niekoniecznie jest najlepszym pomysłem. 
+IDLE, zamiast piszczeć, wyświetla dziwne znaki (zobacz znaki ucieczki z tabeli 7.2).
 
-Zadanie 3: Sortowanie słowników. W rozdziale 8 widzieliśmy, że słowniki są nieuporządkowanymi kolekcjami. Należy napisać pętle for wyświetlającą elementy słownika w posortowanym (rosnącym) porządku. Wskazówka: należy użyć metod słowników keys i list sort lub nowszej funkcji wbudowanej sorted.
+Zadanie 3: Sortowanie słowników. W rozdziale 8 widzieliśmy, że słowniki są nieuporządkowanymi kolekcjami. 
+Należy napisać pętle for wyświetlającą elementy słownika w posortowanym (rosnącym) porządku. 
+Wskazówka: należy użyć metod słowników keys i list sort lub nowszej funkcji wbudowanej sorted.
 
-Zadanie 4: Alternatywne logiki programu. Należy rozważyć poniższy kod, wykorzystujący pętle while oraz opcję statusu (flagę) found do wyszukiwania w liście potęg liczby 2 wartości 2 podniesionej do piątej potęgi (32). Kod ten zapisany jest w pliku modułu o nazwie power.py.
+Zadanie 4: Alternatywne logiki programu. Należy rozważyć poniższy kod, wykorzystujący pętle while oraz opcję statusu (flagę) 
+found do wyszukiwania w liście potęg liczby 2 wartości 2 podniesionej do piątej potęgi (32). 
+Kod ten zapisany jest w pliku modułu o nazwie power.py.
 
      L = [1, 2, 4, 8, 16, 32, 64]
      X = 5
@@ -30,11 +39,23 @@ Zadanie 4: Alternatywne logiki programu. Należy rozważyć poniższy kod, wykor
 
      C:\book\tests> python power.py
      pod indeksem 5
-W takiej postaci przykład ten nie wykorzystuje normalnych technik zapisu kodu w Pythonie. Należy postępować zgodnie z poniższymi krokami w celu poprawienia kodu. W przypadku wszystkich transformacji można albo wpisać kod interaktywnie, albo zachować go w pliku wykonywanym z systemowego wiersza poleceń - skorzystanie z pliku bardzo ułatwia zadanie.
-     a) Najpierw należy przepisać ten kod z użyciem części else pętli while, która pozwoli wyeliminować opcję statusu found oraz ostatnią instrukcję if.
-     b) Później należy przepisać ten przykład w taki sposób, by wykorzystywał on pętle for z częścią else, co pozwoli wyeliminować jawną logikę indeksującą listę. Wskazówka: by otrzymać indeks elementu, należy skorzystać z metody listy index(L.index(X) zwraca wartość przesunięcia pierwszego X z listy L).
-     c) Następnie należy całkowicie usunąć pętle for, przepisując przykład za pomocą prostego wyrażenia z operatorem przynależności in. Więcej informacji na ten temat można znaleźć w rozdziale 8; można również przetestować to rozwiązanie, wpisując do sesji interaktywnej 2 in [1, 2, 3].
-     d) Na koniec należy użyć pętli for oraz metody listy append w celu wygenerowania listy potęg liczby 2 o nazwie L w miejsce użycia zapisanego na stałe w kodzie literału listy.
+W takiej postaci przykład ten nie wykorzystuje normalnych technik zapisu kodu w Pythonie. 
+Należy postępować zgodnie z poniższymi krokami w celu poprawienia kodu. 
+przypadku wszystkich transformacji można albo wpisać kod interaktywnie, albo zachować go w pliku 
+wykonywanym z systemowego wiersza poleceń - skorzystanie z pliku bardzo ułatwia zadanie.
+     a) Najpierw należy przepisać ten kod z użyciem części else pętli while, która 
+     pozwoli wyeliminować opcję statusu found oraz ostatnią instrukcję if.
+     b) Później należy przepisać ten przykład w taki sposób, by wykorzystywał on pętle for z częścią else, 
+     co pozwoli wyeliminować jawną logikę indeksującą listę. Wskazówka: by otrzymać indeks elementu, 
+     należy skorzystać z metody listy index(L.index(X) zwraca wartość przesunięcia pierwszego X z listy L).
+     c) Następnie należy całkowicie usunąć pętle for, przepisując przykład za pomocą prostego wyrażenia z 
+     operatorem przynależności in. Więcej informacji na ten temat można znaleźć w rozdziale 8; 
+     można również przetestować to rozwiązanie, wpisując do sesji interaktywnej 2 in [1, 2, 3].
+     d) Na koniec należy użyć pętli for oraz metody listy append w celu wygenerowania listy potęg liczby 2 o 
+     nazwie L w miejsce użycia zapisanego na stałe w kodzie literału listy.
 Kilka pogłębionych zagadnień:
-     e) Czy użycie wyrażenia 2 ** X poza pętlami poprawiłoby wydajność kodu? W jaki sposób można by zapisać takie rozwiązanie w kodzie?
-     f) Jak widzieliśmy w ćwiczeniu 1, Python zawiera narzędzie map(funkcja, lista), które również może wygenerować listę potęg liczby 2 w następujący sposób: map(lambda x: 2 ** x, range(7)). Można spróbować wpisać ten kod w sesji interaktywnej. Z instrukcją lambda spotkamy się w rozdziale 19.
+     e) Czy użycie wyrażenia 2 ** X poza pętlami poprawiłoby wydajność kodu? 
+     W jaki sposób można by zapisać takie rozwiązanie w kodzie?
+     f) Jak widzieliśmy w ćwiczeniu 1, Python zawiera narzędzie map(funkcja, lista), 
+     które również może wygenerować listę potęg liczby 2 w następujący sposób: map(lambda x: 2 ** x, range(7)). 
+     Można spróbować wpisać ten kod w sesji interaktywnej. Z instrukcją lambda spotkamy się w rozdziale 19.
