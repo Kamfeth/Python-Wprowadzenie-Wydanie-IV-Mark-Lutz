@@ -1,0 +1,12 @@
+Pytanie #1: Czy użycie wyrażenia 2 ** X poza pętlami poprawiłoby wydajność kodu?
+Odpowiedź #1: Tak
+
+Pytanie #2: W jaki sposób można by zapisać takie rozwiązanie w kodzie?
+Odpowiedź #2:
+     L = list(map(lambda i: 2 ** i, range(7)))
+     print(L)
+     X = 5
+     if 2 ** X in L:
+         print('Liczba 2 do potęgi 5 znajduje się w liście L pod indeksem', L.index(2 ** X))
+     else:
+         print('Nie odnaleziono szukanej liczby w liście L')
