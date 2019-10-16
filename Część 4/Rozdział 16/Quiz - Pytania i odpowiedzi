@@ -1,5 +1,6 @@
 Pytanie #1: Jaki jest cel tworzenia funkcji?
-Odpowiedź #1: Warto tworzyć funkcje, ponieważ dzięki nim nasz kod źródłowy jest bardziej czytelny, unikamy dzięki nim powtarzalności, kod sam w sobie jest krótszy oraz łatwiej w przyszłości zmodyfikować nasz program.
+Odpowiedź #1: Warto tworzyć funkcje, ponieważ dzięki nim nasz kod źródłowy jest bardziej czytelny, 
+unikamy dzięki nim powtarzalności, kod sam w sobie jest krótszy oraz łatwiej w przyszłości zmodyfikować nasz program.
 
 Pytanie #2: W którym momencie Python tworzy funkcję?
 Odpowiedź #2: Kiedy trafi na instrukcję def która zawiera ciało funkcji i ją wykona.
@@ -11,4 +12,5 @@ Pytanie #4: Kiedy wykonywany jest kod zagnieżdżony wewnątrz instrukcji defini
 Odpowiedź #4: Kiedy program trafi na wyrażenie wywołania danej funkcji.
 
 Pytanie #5: Co złego jest w sprawdzaniu typów obiektów przekazywanych do funkcji?
-Odpowiedź #5: Długość kodu źródłowego jest wtedy niepotrzebnie wydłużana, kod sam w sobie jest mniej elastyczny oraz ogranicza możliwości danej funkcji.
+Odpowiedź #5: Długość kodu źródłowego jest wtedy niepotrzebnie wydłużana, 
+kod sam w sobie jest mniej elastyczny oraz ogranicza możliwości danej funkcji.
