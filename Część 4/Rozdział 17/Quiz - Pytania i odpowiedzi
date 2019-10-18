@@ -1,0 +1,67 @@
+Pytanie #1: Jaki będzie wynik poniższego kodu i dlaczego?
+     >>> X = 'Mielonka'
+     >>> def func():
+     ...    print(X)
+     ...
+     >>> func()
+Odpowiedź #1: Kod ten wypisze na ekran łańcuch Mielonka. Zmienna X, która jest zmienną globalną jest przekazywana do wbudowanej funkcji print, która znajduje się w funkcji func, a następnie wypisuje jeden raz łańcuch na który wskazuje zmienna X.
+
+Pytanie #2: Jaki będzie wynik poniższego kodu i dlaczego?
+     >>> X = 'Mielonka'
+     >>> def func():
+     ...    X = 'NI!'
+     ...
+     >>> func()
+     >>> print(X)
+Odpowiedź #2: Kod wypisze na ekran łańcuch Mielonka. Funkcja func zmienia łańcuch na który wskazywała wcześniej globalnie zmienna X, jednak przypisanie to występuje lokalnie w ciele funkcji func. W rezultacie, po zakończeniu pracy funkcji func, wbudowana metoda print przyjmuje jako parametr zmienną X, która została zadeklarowana jako zmienna globalna.
+
+Pytanie #3: Co wyświetla poniższy kod i dlaczego?
+     >>> X = 'Mielonka'
+     >>> def func():
+     ...    X = 'NI'
+     ...    print(X)
+     ...
+     >>> func()
+     >>> print(X)
+Odpowiedź #3: W pierwszym wierszu zostanie wyświetlony łańcuch NI, natomiast w drugim łańcuch Mielonka. Funkcja func przypisuje nowy łańcuch do zmiennej X, a następnie wyświetla ten łańcuch. Po zakończeniu działania funkcji func, globalna zmienna X ponownie wskazuje na oryginalnie zainicjalizowany łańcuch, następnie wbudowana funkcja print go wyświetla.
+
+Pytanie #4: Jakie dane wyjściowe zwraca poniższy kod i ponownie: dlaczego?
+     >>> X = 'Mielonka'
+     >>> def func():
+     ...    global X
+     ...    X = 'NI'
+     ...
+     >>> func()
+     >>> print(X)
+Odpowiedź #4: Kod ten wypisze na ekran łańcuch NI. W definicji funkcji func znajduje się instrukcja global, która sprawia, że przypisanie nowego łańcucha do zmiennej X ma również wpływ na zmianę tej wartości dla zmiennej globalnej X. Tak więc po zakończeniu działania funkcji func, zmienna X dalej wskazuje na łańcuch NI, który zostaje ostatecznie wyświetlony przez wbudowaną funkcje print.
+
+Pytanie #5: A co z tym kodem? Jaki będzie jego wynik i dlaczego?
+     >>> X = 'Mielonka'
+     >>> def func():
+     ...    X = 'NI'
+     ...    def nested():
+     ...       print(X)
+     ...    nested()
+     ...
+     >>> func()
+     >>> X
+Odpowiedź #5: W pierwszym wierszu zostanie wyświetlony łańcuch NI, natomiast w drugim łańcuch Mielonka. W ciele funkcji func znajduje się definicja funkcji nested, która wyświetla zawartość zmiennej X. Zmienna X wskazuje na inny łańcuch w ciele funkcji func, przez co funkcja nested wyświetla wartość lokalną zmiennej X. Program wywołuje funkcję func, która sama w sobie wywołuje funkcję nested, która wyświetla lokalną zmienną X, znajdującą się w ciele funkcji func. Ostatnia instrukcja kodu wywołuje globalną, oryginalną wartość zmiennej X.
+
+Pytanie #6: Co z tym przykładem? Jaki będzie jego wynik w Pythonie 3.0 i dlaczego?
+     >>> def func():
+     ...    X = 'NI'
+     ...    def nested():
+     ...       nonlocal X
+     ...       X = 'Mielonka'
+     ...    nested()
+     ...    print(X)
+     ...
+     >>> func()
+Odpowiedź #6: Kod wypisze na ekran łańcuch Mielonka. W ciele funkcji nested znajduje się instrukcja nonlocal, która powoduje, że zmienna X w ciele tej funkcji będzie się również odnosić do tej samej zmiennej, która znajduje się w ciele funkcji func. Funkcja nested zmienia wartość zmiennej X. Funkcja func wywołuję w sobie funkcję nested, a następnie wyświetla łańcuch X. W celu wyświetlenia wyniku trzeba już tylko wywołać funkcję func.
+
+Pytanie #7: Należy podać trzy lub większą liczbę sposobów przechowania informacji o stanie w funkcji Pythona.
+Odpowiedź #7: 
+     1. Współdzielone zmienne globalne.
+     2. Domyślne wartości argumentów.
+     3. Referencje do zakresów funkcji zawierających wewnątrz funkcji zagnieżdżonych.
+     4. Za pomocą atrybutów funkcji.
